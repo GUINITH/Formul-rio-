@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+background-image: url(https://i.pinimg.com/originals/2e/b5/c7/2eb5c7f89eacc98efe147e0a3a2d547c.gif);
+    background-position: center;
+    background-size: cover;
+}
+
+ .form-container{
+    margin-top: 6rem;
+    width: 40vw;
+    height: 82vh;
+    border-right: solid 2px blueviolet ;
+    border-top: solid 2px rgb(146, 10, 170);
+    border-left: solid 2px aqua ;
+    border-bottom: solid 2px blue;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px 3px rgb(7, 7, 7);
+    padding: 80px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: transparent;
+}
+
+.form-texto h3{
+    font-size:  40px;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+.form-container, input{
+    gap: 2rem;
+}
+
+.form-container input, textarea{
+    width: 30vw;
+    height: 6vh;
+    border: solid 1px white;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px 3px rgb(7, 7, 7);
+    background-color: transparent;
+    color: aliceblue;
+}
+
+.form-messenger textarea{
+    width: 30vw;
+    height: 20vh;
+    resize: none;
+    
+}
+
+.form-btn button{
+   width: 30vw;
+   height: 8vh;
+   background-color: transparent;
+   color: white;
+   border: solid white 1px;
+   border-radius: 9px;
+   cursor: pointer;
+   font-size: 18px;
+   box-shadow: 0 5px 5px 3px rgb(7, 7, 7);
+}
+
+.form-btn button:hover{
+    background-color: rgb(107, 45, 239);
+}
